@@ -1,0 +1,76 @@
+# .project metadata for Thanos
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "thanos"
+name: "Thanos"
+description: "Open source, highly available Prometheus setup with long term storage capabilities"
+type: "project"
+project_lead: "bwplotka" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#CK5RSSC10"
+    link: "https://cloud-native.slack.com/messages/CK5RSSC10"
+    primary: true
+  - name: "#thanos"
+
+maturity_log:
+  - phase: "incubating"
+    date: "2019-07-14T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/342" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/thanos-io/thanos"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://thanos.io/"
+
+artwork: "https://landscape.cncf.io/logos/thanos.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/thanos-io/thanos/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "thanos-io/thanos"
+
+social:
+  twitter: "https://twitter.com/ThanosMetrics"
+
+security:
+  policy:
+    path: "https://github.com/thanos-io/thanos/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/thanos-io/thanos/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/thanos-io/thanos/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/thanos-io/thanos/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/thanos-io/thanos/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/thanos-io/thanos/blob/main/README.md"
+
+landscape:
+  category: "Observability and Analysis"
+  subcategory: "Observability"
+
+# CLOMonitor Score: 78/100
+# Documentation: 97 | License: 75 | Best Practices: 53 | Security: 73
